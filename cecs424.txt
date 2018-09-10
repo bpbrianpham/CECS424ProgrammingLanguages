@@ -1,0 +1,11 @@
+Fortran, cobol, c -> von Neumann
+java* c++* c# -> object-oriented
+python*, javascript* -> scripting lang
+
+Haskell -> functional
+Prolog -> logic, constraint-based
+
+
+PROBABLY IN EXAM!!!!!!!!!!!!!!
+Regular Language is defined by the regular expression -> ch2
+

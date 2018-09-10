@@ -18,7 +18,7 @@ int main() {
 
     cout << "Starting C++ Program Type to Check RegEx\n" << endl;
 
-    regex re("^$(*)*(\\d{0,2}(,\\d{3})*|0).\\d\\d");
+    regex re("^\\$(\\*)*(\\d{0,2}(,\\d{3})*|0).\\d\\d");
 
     string line;
     while (getline(inFile, line)){

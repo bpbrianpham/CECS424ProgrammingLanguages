@@ -7,7 +7,7 @@ try:
 except:
     print("Error: a2_input.txt file not found")
 
-regex = re.compile(r'\$\**\d{0,2}((,\d{3})*|0).\d\d')
+regex = re.compile(r'\$(\*)*(\d{0,2}(,\d{3})*|0).\d\d')
 
 print("Starting Python Program Type to Check RegEx\n")
 

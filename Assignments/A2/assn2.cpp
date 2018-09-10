@@ -23,7 +23,10 @@ int main() {
     string line;
     while (getline(inFile, line)){
         if(regex_match(line, re)){
-            cout << line << endl;
+            cout << line << " is a valid money format." << endl;
+        }
+        else{
+            cout << line << " is ann invalid money format." << endl;
         }
     }
 

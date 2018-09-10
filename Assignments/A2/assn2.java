@@ -5,7 +5,7 @@ public class assn2{
     public static void main(String [] args){
         try{
             String value = "";
-            String regex = "^\\$(\\*)*([1-9]\\d{0,2}(,\\d{3})*|0).\\d\\d";
+            String regex = "^\\$(\\*)*([1-9]\\d{0,2}(,\\d{3})*|0).\\d\\d$";
             System.out.println("Starting Java Program Type to Check RegEx\n");
             //File file = new File("C:\\Users\\Brian Pham\\Desktop\\CSULB\\CECS 424 - Programming Languages\\Assignments\\A2\\a2_input.txt");
             File file = new File(args[0]);

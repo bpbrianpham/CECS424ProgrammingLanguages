@@ -26,7 +26,7 @@ int main() {
             cout << line << " is a valid money format." << endl;
         }
         else{
-            cout << line << " is ann invalid money format." << endl;
+            cout << line << " is an invalid money format." << endl;
         }
     }
 

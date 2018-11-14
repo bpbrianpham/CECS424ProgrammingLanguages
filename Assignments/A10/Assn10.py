@@ -31,7 +31,7 @@ while fp < 1.4E-44:
     print (str(i), "th number: ", str(fp))
 
 print("\niii. Floating point number counting")
-zeroToMaxFloat = countBetween(0.0, sys.float_info.max)
+zeroToMaxFloat = countBetween(0.0, 3.4028235E38)  #sys.float_info.max)
 zeroToOneFloat = countBetween(0.0, 1.0)
 print("Number of positive floating point numbers:", str(zeroToMaxFloat))
 print("Number of floating point numbers between 0 and 1:", str(zeroToOneFloat))

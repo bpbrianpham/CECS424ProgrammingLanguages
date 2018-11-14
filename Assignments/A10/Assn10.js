@@ -62,7 +62,7 @@ while(fp < 1.4E-44) {
 }
 
 console.log('iii. Floating point number counting');
-let posFPs = countBetween(0.0, 3.402823e+38);
+let posFPs = countBetween(0.0, 3.4028235E38);
 let zeroOneFPs = countBetween(0.0, 1.0);
 console.log(`Number of positive floating point numbers: ${posFPs}`);
 console.log(`Number of floating point numbers between 0 and 1: ${zeroOneFPs}`);

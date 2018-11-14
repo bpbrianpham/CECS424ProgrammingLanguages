@@ -1,0 +1,21 @@
+Watch the attached video, Evolving a language in and for the real world (C++ 1991-2006).mov, and answer the questions.
+
+1. Complete the following find function in C++.
+
+template<class Iter, class T>
+Iter find(Iter first, Iter last, const T& val) {
+	while(first != last){
+		if(*first==val) return first;
+		first++;
+	}
+	return last;
+}
+
+2. Why did C++ succeed?
+
+	The language has a direct interface to other languages especially with C.
+	Its aim was to be more correct, maintainable, efficient, and portable.
+	It is Object-oriented programming, with generic programming, generic programming,
+	Resource management, and error handling.  It was able to represent ideas directly
+	with code.  It represent independent ideas independently to code.  It offers a 
+	hierachical structure.  And more importantly, it is better than C.
